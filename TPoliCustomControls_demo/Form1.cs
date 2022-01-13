@@ -25,7 +25,7 @@ namespace TPoliCustomControls_demo
 
         private void buttonFlat_tpoli1_Click(object sender, EventArgs e)
         {
-            listBoxCustom_tpoli1.IsGradient = !listBoxCustom_tpoli1.IsGradient;
+            listBoxCustom_tpoli1.Items.Add(textBoxCustom_tpoli1.Texts);
         }
     }
 }

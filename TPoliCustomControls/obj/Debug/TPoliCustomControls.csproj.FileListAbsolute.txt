@@ -5,3 +5,4 @@ D:\03 - Development\Projetos\VisualStudio\Personal Stuff\CustomComponents\TPoliC
 D:\03 - Development\Projetos\VisualStudio\Personal Stuff\CustomComponents\TPoliCustomControls\obj\Debug\TPoliCustomControls.csproj.CoreCompileInputs.cache
 D:\03 - Development\Projetos\VisualStudio\Personal Stuff\CustomComponents\TPoliCustomControls\obj\Debug\TPoliCustomControls.dll
 D:\03 - Development\Projetos\VisualStudio\Personal Stuff\CustomComponents\TPoliCustomControls\obj\Debug\TPoliCustomControls.pdb
+D:\03 - Development\Projetos\VisualStudio\Personal Stuff\CustomComponents\TPoliCustomControls\obj\Debug\TPoliCustomControls.Controls.TextBoxCustom_tpoli.resources

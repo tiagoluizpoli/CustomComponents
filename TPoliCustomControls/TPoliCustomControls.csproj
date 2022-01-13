@@ -49,6 +49,12 @@
     <Compile Include="Controls\ListBoxCustom_tpoli.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Controls\TextBoxCustom_tpoli.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\TextBoxCustom_tpoli.Designer.cs">
+      <DependentUpon>TextBoxCustom_tpoli.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FormCustom_tpoli.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,6 +64,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Controls\TextBoxCustom_tpoli.resx">
+      <DependentUpon>TextBoxCustom_tpoli.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormCustom_tpoli.resx">
       <DependentUpon>FormCustom_tpoli.cs</DependentUpon>
     </EmbeddedResource>
