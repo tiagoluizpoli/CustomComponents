@@ -46,6 +46,9 @@
     <Compile Include="Controls\ButtonFlat_tpoli.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Controls\ListBoxCustom_tpoli.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Forms\FormCustom_tpoli.cs">
       <SubType>Form</SubType>
     </Compile>

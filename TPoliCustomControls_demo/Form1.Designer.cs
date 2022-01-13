@@ -28,13 +28,63 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.listBoxCustom_tpoli1 = new TPoliCustomControls.Controls.ListBoxCustom_tpoli();
+            this.buttonFlat_tpoli1 = new TPoliCustomControls.Controls.ButtonFlat_tpoli();
+            this.SuspendLayout();
+            // 
+            // listBoxCustom_tpoli1
+            // 
+            this.listBoxCustom_tpoli1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.listBoxCustom_tpoli1.Font = new System.Drawing.Font("Century Gothic", 8F);
+            this.listBoxCustom_tpoli1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.listBoxCustom_tpoli1.FormattingEnabled = true;
+            this.listBoxCustom_tpoli1.IsGradient = true;
+            this.listBoxCustom_tpoli1.ItemHeight = 18;
+            this.listBoxCustom_tpoli1.LineBackColor = "#FFFFFF";
+            this.listBoxCustom_tpoli1.LineHighlightColorMain = "#C02C20";
+            this.listBoxCustom_tpoli1.LineHighlightColorSecondary = "#FFB752";
+            this.listBoxCustom_tpoli1.Location = new System.Drawing.Point(139, 62);
+            this.listBoxCustom_tpoli1.Name = "listBoxCustom_tpoli1";
+            this.listBoxCustom_tpoli1.Size = new System.Drawing.Size(230, 238);
+            this.listBoxCustom_tpoli1.TabIndex = 1;
+            this.listBoxCustom_tpoli1.TextColor = "#000000";
+            // 
+            // buttonFlat_tpoli1
+            // 
+            this.buttonFlat_tpoli1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(60)))), ((int)(((byte)(8)))));
+            this.buttonFlat_tpoli1.BackgroundColor = "#E33C08";
+            this.buttonFlat_tpoli1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(60)))), ((int)(((byte)(8)))));
+            this.buttonFlat_tpoli1.BorderRadius = 10;
+            this.buttonFlat_tpoli1.BorderSize = 1;
+            this.buttonFlat_tpoli1.FlatAppearance.BorderSize = 0;
+            this.buttonFlat_tpoli1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonFlat_tpoli1.ForeColor = System.Drawing.Color.White;
+            this.buttonFlat_tpoli1.Location = new System.Drawing.Point(12, 398);
+            this.buttonFlat_tpoli1.Name = "buttonFlat_tpoli1";
+            this.buttonFlat_tpoli1.Size = new System.Drawing.Size(150, 40);
+            this.buttonFlat_tpoli1.TabIndex = 0;
+            this.buttonFlat_tpoli1.Text = "buttonFlat_tpoli1";
+            this.buttonFlat_tpoli1.TextColor = System.Drawing.Color.White;
+            this.buttonFlat_tpoli1.UseVisualStyleBackColor = false;
+            this.buttonFlat_tpoli1.Click += new System.EventHandler(this.buttonFlat_tpoli1_Click);
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.listBoxCustom_tpoli1);
+            this.Controls.Add(this.buttonFlat_tpoli1);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private TPoliCustomControls.Controls.ButtonFlat_tpoli buttonFlat_tpoli1;
+        private TPoliCustomControls.Controls.ListBoxCustom_tpoli listBoxCustom_tpoli1;
     }
 }
 

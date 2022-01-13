@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomComponents", "CustomComponents\CustomComponents.csproj", "{11BC4C42-BB78-42C9-90B4-294F1E5A3076}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPoliCustomControls", "TPoliCustomControls\TPoliCustomControls.csproj", "{90F24A93-FDBD-4B8C-ABF2-D875EEA5EF98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPoliCustomControls_demo", "TPoliCustomControls_demo\TPoliCustomControls_demo.csproj", "{A3B6C8FA-E583-460A-B590-21BB3F787CE0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{11BC4C42-BB78-42C9-90B4-294F1E5A3076}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{11BC4C42-BB78-42C9-90B4-294F1E5A3076}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{11BC4C42-BB78-42C9-90B4-294F1E5A3076}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{11BC4C42-BB78-42C9-90B4-294F1E5A3076}.Release|Any CPU.Build.0 = Release|Any CPU
 		{90F24A93-FDBD-4B8C-ABF2-D875EEA5EF98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{90F24A93-FDBD-4B8C-ABF2-D875EEA5EF98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90F24A93-FDBD-4B8C-ABF2-D875EEA5EF98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90F24A93-FDBD-4B8C-ABF2-D875EEA5EF98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3B6C8FA-E583-460A-B590-21BB3F787CE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3B6C8FA-E583-460A-B590-21BB3F787CE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3B6C8FA-E583-460A-B590-21BB3F787CE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3B6C8FA-E583-460A-B590-21BB3F787CE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
