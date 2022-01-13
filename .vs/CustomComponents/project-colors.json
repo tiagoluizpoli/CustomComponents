@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "11bc4c42-bb78-42c9-90b4-294f1e5a3076": {
+      "ProjectGuid": "11bc4c42-bb78-42c9-90b4-294f1e5a3076",
+      "DisplayName": "CustomComponents",
+      "ColorIndex": 0
+    },
+    "d4d99662-ae00-4eae-84ec-459f5bf8b6ea": {
+      "ProjectGuid": "d4d99662-ae00-4eae-84ec-459f5bf8b6ea",
+      "DisplayName": "CustomControls",
+      "ColorIndex": 1
+    },
+    "90f24a93-fdbd-4b8c-abf2-d875eea5ef98": {
+      "ProjectGuid": "90f24a93-fdbd-4b8c-abf2-d875eea5ef98",
+      "DisplayName": "TPoliCustomControls",
+      "ColorIndex": 2
+    },
+    "a3b6c8fa-e583-460a-b590-21bb3f787ce0": {
+      "ProjectGuid": "a3b6c8fa-e583-460a-b590-21bb3f787ce0",
+      "DisplayName": "TPoliCustomControls_demo",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Arquivos Diversos",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 4
+}
