@@ -35,9 +35,9 @@
             // 
             this.baseTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.baseTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.baseTextBox.Location = new System.Drawing.Point(7, 7);
+            this.baseTextBox.Location = new System.Drawing.Point(10, 7);
             this.baseTextBox.Name = "baseTextBox";
-            this.baseTextBox.Size = new System.Drawing.Size(236, 15);
+            this.baseTextBox.Size = new System.Drawing.Size(230, 15);
             this.baseTextBox.TabIndex = 0;
             this.baseTextBox.Click += new System.EventHandler(this.baseTextBox_Click);
             this.baseTextBox.TextChanged += new System.EventHandler(this.baseTextBox_TextChanged);
@@ -59,7 +59,7 @@
             this.ForeColor = System.Drawing.Color.DimGray;
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "TextBoxCustom_tpoli";
-            this.Padding = new System.Windows.Forms.Padding(7);
+            this.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
             this.Size = new System.Drawing.Size(250, 30);
             this.ResumeLayout(false);
             this.PerformLayout();

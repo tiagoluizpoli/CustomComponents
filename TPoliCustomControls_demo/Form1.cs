@@ -27,5 +27,15 @@ namespace TPoliCustomControls_demo
         {
             listBoxCustom_tpoli1.Items.Add(textBoxCustom_tpoli1.Texts);
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            textBoxCustom_tpoli1.BorderRadius = Int32.Parse(textBox1.Text.Length > 0 ? textBox1.Text : "0");
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            textBoxCustom_tpoli1.Multiline = checkBox1.Checked;
+        }
     }
 }

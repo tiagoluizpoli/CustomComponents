@@ -61,6 +61,7 @@
     <Compile Include="Forms\FormCustom_tpoli.Designer.cs">
       <DependentUpon>FormCustom_tpoli.cs</DependentUpon>
     </Compile>
+    <Compile Include="Methods\GraphicsMethods.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
